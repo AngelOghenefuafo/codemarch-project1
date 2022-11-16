@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Contact Us</title>
+
+    <style>
+        .contact{
+            display: flex;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        p{
+            margin-top: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form {
+            background: lightgrey;
+            width: 500px;
+            height: 300px;
+            margin: 20px;
+        }
+        form{
+            margin: 10px;
+        }
+        input{
+            margin: 10px;
+
+        }
+        button{
+            width: 100%;
+            background-color: blue;
+            
+        }
+        .address{
+            background-color: lightgray;
+            width: 250px;
+            height: 300px;
+            margin: 20px;
+            align-items: center;
+        }
+        .address img{
+            float: left;
+        }
+        h4 {
+            margin-top: 10px;
+            color: blue;
+            text-align: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">Codemarch Academy</label>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+        <h3>Contact us</h3>
+       If you are a developer and need assistance understanding Javascript or React, please contact us at codemarch23@gmail.com.
+        <div class="contact">
+        <div class="form" style="">
+            <form>
+                <input type="text" name="fname" placeholder="First Name">
+                <input type="text" name="lname" placeholder="Last Name">
+                <input type="email" name="e-mail" placeholder="Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea rows="10" cols="60" placeholder="Message" name="message"></textarea>
+                <button>SEND</button>
+            </form>
+        </div>
+        <div class="address">
+            <img src="location.png" style="width: 20px;  margin: 10px">
+            <h4>Address</h4>
+            <p>Shavige Malleshwara Hills, 1st Stage, Kumaraswamy Layout, Bengluru, Karnataka 560078</p>
+            <br>
+            <img src="@.png" style="width: 20px; margin: 10px">
+            <h4>Email</h4>
+            <p>codemarch123@gmail.com</p>
+            <br>
+            <img src="twitter.png" style="width: 20px; margin: 10px">
+            <h4>twitter</h4>
+            <p><a href="https://twitter.com/codemarch">Codemarch</a></p>
+        </div>
+    </div>
+</body>
+</html>
